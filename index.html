@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Alex</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Alex</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Alex Martinez</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm a <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p class="first-p">"Continuous learning is the minimum requirement for success in any field." – Brian Tracy
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+
+                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-dribbble"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./assets/alex.JPG" alt="alex-img">
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1 class="ab-h">About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3 clas="my-intro">My introduction</h3>
+                            <p class="ab-p">From a young age, I was fascinated by how things work—especially when it came to technology. This curiosity naturally grew into a passion for cybersecurity.
+                                 I am currently pursuing a degree in cybersecurity at college, and I have already earned certifications in Google Cybersecurity and Google IT Support. These experiences 
+                                 have equipped me with the skills to tackle complex challenges in the digital world. In my free time, I enjoy hands-on projects like building websites, setting up SOC home labs,
+                                  performing penetration tests, and exploring new technologies using platforms like Azure, Linode, and VirtualBox. I’m committed to constant learning and adapting, striving to stay
+                                ahead in this fast-paced field.
+                            </p>
+                            <p class="ab-pp">I believe that learning is a lifelong journey. As someone who is constantly engaged in building new projects and exploring different technologies,
+                                 I resonate with the idea that we are always students, continually learning and growing. Outside of my technical work, I also find joy in hiking, skating with friends,
+                                  rock climbing, and reading books that help me develop good habits and stay motivated.</p>
+                                <p class="ab-ppp">In addition to my professional goals, I’m focused on personal growth and contributing to the tech community. I’m passionate about
+                                     sharing my knowledge through mentoring and community involvement. My aim is to blend my love for technology with a commitment to making a positive
+                                     impact in both my career and personal life. I look forward to the opportunities ahead, driven by a desire to solve problems and inspire others.</p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    
+
+                    <!-- -------------- CERTS style="text-align: center;" ---------------- -->
+                    <div class="col">
+                        <section id="certificates" style="text-align: center;">
+                            <div style="display: inline-block; margin: 0 20px;">
+                                <h3>Google Cybersecurity</h3>
+                                <a href="./assets/Google Certificate copy.pdf" target="_blank">
+                                    <img src="./assets/google-cyber.png" alt="Google Cybersecurity Certificate"  style="width: 380px; vertical-align: middle;" />
+                                </a>
+                            </div>
+                            <div style="display: inline-block; margin: 0 20px;">
+                                <h3>Google IT Support</h3>
+                                <a href="./assets/IT support.pdf" target="_blank">
+                                    <img src="./assets/google-IT.png" alt="Google IT Support Certificate" style="width: 300px; vertical-align: middle;"/>
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- -------------- CERTS ---------------- -->
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1 class="project-h">Projects</h1>
+                </div>
+
+                <!-- -------------- CYBER PROJECTS ---------------- -->
+                <div class="project-container">
+                    <a href="cyber-projects.html" class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Cybersecurity Projects</h3>
+                    </a>
+
+                    <!-- -------------- CYBER PROJECTS ---------------- -->
+
+
+                    <!-- -------------- IT PROJECTS ---------------- -->
+                    <a href="IT-projects.html" class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Technical Support Projects</h3>
+                    </a>
+                    <!-- -------------- IT PROJECTS ---------------- -->
+
+
+                    <!-- -------------- STILL WORKING ON ---------------- -->
+                    <a href="still-work.html" class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Working On</h3>
+                    </a>
+                    <!-- -------------- STILL WORKING ON ---------------- -->
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <!-- -------------- TESTIOMONIALS ---------------- -->
+
+            <section class="testimonials">
+                <div class="testimonials-container">
+                    <div class="section-header">
+                        <h2 class="title">Recognitions</h2>
+                    </div>
+                    <div class="testimonials-content">
+                        <div class="swiper testimonial-slider js-testimonials-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide testimonials-item">
+                                    <div class="info">
+                                        <img src="./assets/excel.jpeg" alt="img">
+                                        <div class="text-box">
+                                            <h3 class="name">Excel Courier</h3>
+                                            <span class="job">Company</span>
+                                        </div>
+                                    </div>
+                                    <p>There were two submissions for Alexander Martinez this week. 
+                                        Both were in praise of his outstanding teamwork, the excellent quality of
+                                        his work, his dedication to providing our customers with top notch service,
+                                        and truly commiting to do the best job possible. Two of his teammates had to be out
+                                        of the office without a lot of forewarning. In addition to his regular work he made sure the service 
+                                        to our customers went uninterrupted. It involved long hours and learning new processes
+                                        on the fly and he nailed it.
+                      
+                                        You're doing GREAT Alex!</p>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonials-item">
+                                    <div class="info">
+                                        <img src="./assets/chris.webp" alt="img">
+                                        <div class="text-box">
+                                            <h3 class="name">Chris Marchetti</h3>
+                                            <span class="job">CEO</span>
+                                        </div>
+                                    </div>
+                                    <p>Employee of the year - Logistics: Alexander Martinez.
+                                        Alex, from our Sterling Logistics team, hit the ground running when he joined Excel 
+                                        Courier. He is someone that the team and management can count on endlessly. He's dedicated
+                                        to his role and does it all with a smile. He ecompasses every value we instill in 
+                                        the company, and are very proud to have him on the team.</p>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonials-item">
+                                    <div class="info">
+                                        <img src="./assets/steve.webp" alt="img">
+                                        <div class="text-box">
+                                            <h3 class="name">Steve Sawyer</h3>
+                                            <span class="job">Director of Operations</span>
+                                        </div>
+                                    </div>
+                                    <p>Alex jumped in and covered for an employee in another building who was 
+                                        on vacation. Alex was trained as a back up for this position over 8 months ago.
+                                        He retained his training and was able to jump in and get the work done almost as if he did
+                                        it everyday. This was an excellent example of how to be a back up.</p>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonials-item">
+                                    <div class="info">
+                                        <img src="./assets/anwar.webp" alt="img">
+                                        <div class="text-box">
+                                            <h3 class="name">Anwar Firoz</h3>
+                                            <span class="job">Logistic Warehouse Lead</span>
+                                        </div>
+                                    </div>
+                                    <p>Alex is someone you can always rely on. 
+                                        With unwavering dedication and a strong work ethic. His commitment and passion for his work are truly commendable, 
+                                        and it's a source of pride to see him continually grow and succeed.
+                                    </p>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonials-item">
+                                    <div class="info">
+                                        <img src="./assets/zack.webp" alt="img">
+                                        <div class="text-box">
+                                            <h3 class="name">Zach Disisto</h3>
+                                            <span class="job">Operations Supervisor</span>
+                                        </div>
+                                    </div>
+                                    <p>Shout out to Alex and his team, Critical Parts.
+                                        They have been working hard,
+                                        tackling a project
+                                       outbounding and re-inbounding over 2500 parts. Great job.</p>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>                     
+                                </div>
+                            </div>  
+                        </div>    
+                    </div>
+                </div>
+            </section>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.js-testimonials-slider', {
+                    grabCursor: true,
+                    spaceBetween:30,
+                    pagination:{
+                        el: '.js-testimonials-pagination',
+                        clickable: true
+                    },   
+                    breakpoints:{
+                        767:{
+                            slidesPerView: 2
+                        }
+                    }
+                });
+            </script>
+
+
+
+
+
+
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1 class="get-h">Get in touch</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Gmail: 
+                                <a href="mailto:7alexmtnz7@gmail.com" class="email-link">7alexmtnz7@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form action="https://formspree.io/f/xwperegd" method="POST">
+                            <div class="form-control">
+                                <div class="form-inputs">
+                                    <input type="text" name="name" class="input-field" placeholder="Name" required>
+                                    <input type="email" name="email" class="input-field" placeholder="Email" required>
+                                </div>
+                                <div class="text-area">
+                                    <textarea name="message" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Alex Martinez .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.linkedin.com/in/alex-martinez-59b900266/" target="_blank" class="icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://github.com/alexssgg7" target="_blank" class="icon">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Alex Martinez</a> - All rights reserved</p>
+            </div>
+            
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
